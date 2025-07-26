@@ -43,13 +43,13 @@ document.addEventListener("keydown", (e) => keysDown[e.code] = true);
 document.addEventListener("keyup", (e) => keysDown[e.code] = false);
 
 let player1 = {
-  name: "Joe White", x: 100, y: 100, width: 64, height: 64,
+  name: "Joe White", x: 200, y: 170, width: 64, height: 64,
   controls: { up: "KeyS", down: "KeyX", left: "KeyZ", right: "KeyC", action: "KeyR" },
   carrying: null, score: 0, wins: 0
 };
 
 let player2 = {
-  name: "Joe Brown", x: 200, y: 100, width: 64, height: 64,
+  name: "Joe Brown", x: 300, y: 170, width: 64, height: 64,
   controls: { up: "ArrowUp", down: "ArrowDown", left: "ArrowLeft", right: "ArrowRight", action: "KeyP" },
   carrying: null, score: 0, wins: 0
 };
