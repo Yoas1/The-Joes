@@ -1,8 +1,8 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-const SCREEN_WIDTH = 800;
-const SCREEN_HEIGHT = 600;
+const SCREEN_WIDTH = 1200;
+const SCREEN_HEIGHT = 800;
 const PLAYER_SPEED = 5;
 let gameLoopId;
 let currentScreen = "start";
